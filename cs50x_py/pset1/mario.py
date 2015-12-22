@@ -8,5 +8,5 @@ if height < 0 or height > 23:
 	print "Invalid input."
 
 for row in range(1, height + 1):
-	print " " * (height - 1) + "#" * row
+	print ((" " * (height - 1)) + ("#" * row)) * 2
 	height -= 1
